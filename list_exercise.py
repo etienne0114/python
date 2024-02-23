@@ -1,0 +1,23 @@
+my_list = []
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+print('my list ofter appending')
+print(my_list)
+my_list.insert(2,15) 
+print('my list after inserted at second position')
+print(my_list)
+my_list.extend([50,60,70])
+print('my list after extended')
+print(my_list)
+my_list.pop()
+print('my list after removing last element')
+print(my_list)
+
+my_list.sort()
+print('my list after ascending order')
+print(my_list)
+index_30 = my_list.index(30)
+
+print(f'Index of value 30 is {index_30}')
